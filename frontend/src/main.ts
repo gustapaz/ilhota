@@ -235,7 +235,8 @@ function App() {
     </div>
     ${
       d.catalog
-        ? html`<div class="parameters">
+        ? html`<div class="controls">
+            <div class="parameters">
               ${range("seed", "Semente", 1, 9999, 1)}${range("sea", "Nível do mar", 0.1, 0.7, 0.01)}${range("roughness", "Rugosidade", 0, 1, 0.05)}
               <div class="endpoints">
                 ${range("from", "Origem · célula", 0, 575, 1)}${range("to", "Destino · célula", 0, 575, 1)}
@@ -244,14 +245,16 @@ function App() {
             </div>
             <div class="presets">
               ${d.catalog.presets.map((p: any) => button(p.name + " ↗", () => a.preset(p)))}
-            </div>`
+            </div>
+          </div>`
         : button("Tentar abrir o mundo", () => a.init())
     }
     <p class="status" role="status">${d.error || d.status}</p>
     ${
       d.result
         ? [
-            html`<div class="metrics">
+            html`<div class="report">
+              <div class="metrics">
                 <p>
                   <strong
                     >${d.result.land_percent.toFixed(1)}<small>%</small></strong
@@ -272,7 +275,8 @@ function App() {
                   ${d.result.route.path.join(" → ") || "Nenhum caminho terrestre."}
                 </p>
                 <p>Índice = linha × 24 + coluna. Linhas e colunas de 0 a 23.</p>
-              </details>`,
+              </details>
+            </div>`,
           ]
         : []
     }
