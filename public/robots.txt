@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Sitemap: https://ilhota-gustapaz.starrylinen.chatgpt.site/sitemap.xml

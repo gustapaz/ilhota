@@ -1,0 +1,31 @@
+{
+  "assets": [
+    {
+      "file": "public/media/subject.webp",
+      "author": "Darren Lawrence",
+      "source_url": "https://www.pexels.com/photo/island-3417784/",
+      "download_url": "https://images.pexels.com/photos/3417784/pexels-photo-3417784.jpeg",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "verified_at": "2026-11-01T12:36:17.450863+00:00",
+      "source_sha256": "08afca953bdaff0a33b55104305c42dc745e5bcfc199f05b1bb6dfcf32d2e1f6",
+      "output_sha256": "4cda1815fefd9ad04d68c25af41f0ae71753661d78c4330f82360a5c277e9d89",
+      "source_dimensions": [
+        3241,
+        2161
+      ],
+      "width": 1200,
+      "height": 800,
+      "bytes": 110054,
+      "transformations": [
+        "EXIF orientation applied",
+        "RGB conversion",
+        "long edge resized to maximum 1200px",
+        "EXIF removed",
+        "WebP quality 85, method 6"
+      ],
+      "visual_review": "Inspeção visual da versão final: sem faces identificáveis, marcas visíveis ou dados pessoais legíveis. Recortes usados em Doca, Rubato e Fagulha para excluir marcas de equipamentos.",
+      "usage": "Imagem de ambientação em demonstração de portfólio; não é produto para revenda e não implica endosso."
+    }
+  ]
+}
