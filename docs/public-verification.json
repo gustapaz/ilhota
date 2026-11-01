@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-01",
+  "demo": "https://ilhota-gustapaz.starrylinen.chatgpt.site",
+  "application_commit": "268afe3db43650474ee583fabf2f83509ca1c239",
+  "automated_tests": 23,
+  "public_smoke": "passed",
+  "browser_flow": "passed",
+  "responsive_widths": [
+    390,
+    768
+  ],
+  "export": {
+    "filename": "ilhota.obj",
+    "bytes": 23697,
+    "sha256": "711e50b1c88795f78a16e202c4b933e9744a04e574a142c4df6b7e8ae24abe4c",
+    "structure": "passed"
+  }
+}
